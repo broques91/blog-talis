@@ -1,6 +1,6 @@
 <?php
     session_start();
-    var_dump($_SESSION);
+    //var_dump($_SESSION);
     if(!isset($_SESSION["pseudo"])){
         header("Location: login.php");
     }
@@ -14,6 +14,7 @@
     <title>Document</title>
 </head>
 <body>
+    <?php require "nav-bar.php"; ?>
     <h1>Admin</h1>
 </body>
 </html>
