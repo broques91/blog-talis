@@ -1,4 +1,5 @@
 <?php
 session_start();
-require 'nav_bar.php';
+require 'nav-bar.php';
+require 'database.php';
 ?>
