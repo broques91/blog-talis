@@ -15,6 +15,7 @@
         header("Location: admin.php");
     }
 
+    // Redirect to admin.php si pseudo & password = admin
     // if($_POST["pseudo"] === "admin" && $_POST["password"] === "admin") {
     //     session_start();
     //     $_SESSION["pseudo"] = $_POST["pseudo"];
