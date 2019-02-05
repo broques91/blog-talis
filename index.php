@@ -12,5 +12,4 @@
         echo "<h2>{$row["title"]}</h2>";
         echo "<p>{$row["content"]}</p>";
     }
-
 ?>
